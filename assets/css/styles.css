@@ -152,7 +152,7 @@ nav {
   /*edit this part later thiis is the html css etc part*/
   .skills {
     max-width: 40rem;
-    margin: 0 20%;
+    margin: auto;
     text-align: center;
     margin-top: 2.5rem;
   }
@@ -336,7 +336,7 @@ nav {
   /*media query starting @720px */
   @media screen and (max-width: 720px) {
     nav {
-        padding: 1.5rem 1rem;
+        padding: 0.1rem 1rem;
       }
     nav ul {
         position: fixed;
