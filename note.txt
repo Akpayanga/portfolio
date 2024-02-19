@@ -1,0 +1,8 @@
+ <a href="#" target="_blank"
+          ><img
+            src="assets/icons/icons8-whatsapp.gif"
+            alt="Whatapp"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <p>07060705206</p>
