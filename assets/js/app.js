@@ -18,7 +18,7 @@ navLink.forEach((link) =>
 );
 
 //the color changer
-const texts = ['red', 'pink', 'green', 'yellow']; // Define an array of texts to cycle through
+const texts = ['#A6A6A6', '#D9D9D9', '#5B4131', '#CAFFBA', '#40f109', '#a17a69','#000000']; // Define an array of texts to cycle through
 const changeText = (index) => {
     setTimeout(() => {
         const newText = texts[index % texts.length]; // Get the next text from the array

@@ -58,9 +58,6 @@ nav {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
   }
-  h1{
-    display: inline;
-  }
   .logo {
     width: 4rem;
     height: 4rem;
@@ -69,10 +66,13 @@ nav {
   }
 
   h1 {
+    display: inline;
     color: var(--primary-color);
     padding-bottom: 10px;
-    font-size: 50px;
-
+    font-size: 32px;
+  }
+  #newText{
+    font-size: 55px;
   }
   
   nav a {
@@ -108,12 +108,15 @@ nav {
     justify-content: center;
     gap: 2.5rem;
     max-width: 68.75rem;
+    height: 28rem;
     margin: auto;
+    border-bottom: 1px dotted #a17a69;
+
    
   }
   .hero img {
-    height: 25.5rem;
-    width: 25.5rem;
+    height: 15.5rem;
+    width: 15.5rem;
     border-radius: 200px;
 
   }
@@ -365,6 +368,8 @@ nav {
         margin-top: 3rem;
         flex-direction: column;
         gap: 0;
+        height: auto;
+        border-bottom: none;
       }
     
       .hero img {
@@ -410,8 +415,9 @@ nav {
 
     @media screen and (max-width: 420px) {
       .hero img {
-        height: 37.5rem;
-        width: 23rem;
+        height: 15.5rem;
+        width: 15rem;
+        border-radius: 20px;
       }
     
       .bio {
