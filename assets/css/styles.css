@@ -180,10 +180,6 @@ nav {
     max-width: 40rem;
     margin: auto;
   }
-  .skill-h3{
-    font-size: 25px;
-    gap: 1rem;
-  }
   .heroTopSkill ul {
     display: flex;
     flex-direction: column;
