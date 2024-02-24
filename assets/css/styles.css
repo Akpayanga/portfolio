@@ -44,6 +44,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  background-color: #f6eae3;
 }
 nav {
     position: sticky;
@@ -72,7 +73,7 @@ nav {
     font-size: 32px;
   }
   #newText{
-    font-size: 55px;
+    font-size: 20.5px;
   }
   
   nav a {
@@ -110,23 +111,29 @@ nav {
     max-width: 68.75rem;
     height: 28rem;
     margin: auto;
-    border-bottom: 1px dotted #a17a69;
+    background-color: #fff;
 
    
   }
   .hero img {
-    height: 15.5rem;
-    width: 15.5rem;
-    border-radius: 200px;
-
+    height: 18.5rem;
+    width: 20.5rem;
+    border-radius: 20px;
   }
   
     
+  .bio1 {
+    width: 35rem;
+    padding: 3rem;
+    border-radius: 6px;
+    min-height: 20rem;
+    max-width: 20rem;
+  }
+ 
   .bio {
     width: 35rem;
     padding: 0.625rem;
     border-radius: 6px;
-    
   }
   
   .bio h1 {
@@ -262,6 +269,7 @@ nav {
     margin: 0 auto;
     padding: 0.938rem;
     border-radius: 5px;
+    background-color: #fff;
     box-shadow: 0 3px 10px var(--secondary-shadow);
   }
   .contact-form-container label {
