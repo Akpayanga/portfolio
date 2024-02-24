@@ -379,7 +379,7 @@ nav {
       .hero img {
             height: 15.5rem;
             width: 15rem;
-            border-radius: 100px;
+            border-radius: 20px;
         }
     
       .bio {
@@ -421,7 +421,7 @@ nav {
       .hero img {
         height: 15.5rem;
         width: 15rem;
-        border-radius: 20px;
+        border-radius: 10px;
       }
     
       .bio {
